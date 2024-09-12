@@ -178,7 +178,8 @@
                 </scg:List>
               </ui:FilterDataTable.Filters>
               <ui:FilterDataTable.SelectColumns>
-                <scg:List x:TypeArguments="InArgument" Capacity="8">
+                <scg:List x:TypeArguments="InArgument" Capacity="16">
+                  <InArgument x:TypeArguments="x:String">["Id"]</InArgument>
                   <InArgument x:TypeArguments="x:String">["Account Name"]</InArgument>
                   <InArgument x:TypeArguments="x:String">["Country"]</InArgument>
                   <InArgument x:TypeArguments="x:String">["Opportunity Owner"]</InArgument>
